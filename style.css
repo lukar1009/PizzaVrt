@@ -1,0 +1,41 @@
+body {
+    /* background-color: #5d0e1e; */
+    background-image: url("./img/background_home2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Old Standard TT', serif;
+}
+
+.navbar {
+    background-color: #e2b777 !important;
+    font-weight: 500;
+    font-size: large;
+    padding: 0 5px 0 15px;
+}
+
+.navbar-brand {
+    padding: 0;
+    border-bottom: #e2b777;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: #5d0e1e;
+    border-radius: 5px;
+}
+
+div.logo-centered {
+    margin: auto;
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-centered img{
+    /* border-radius: 45%; */
+    border-radius: 10px;
+}
