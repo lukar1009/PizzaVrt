@@ -39,3 +39,7 @@ div.logo-centered {
     /* border-radius: 45%; */
     border-radius: 10px;
 }
+
+.main-container {
+    margin-top: 120px;
+}
