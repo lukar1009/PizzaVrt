@@ -37,6 +37,7 @@ var overlay = new ol.Overlay({
 
 map.addOverlay(overlay);
 
+//ZA IE ILI DA IDE ADDEVENTLISTENER ILI DA SE STAVI closer.on('click', function() {})
 closer.onclick = function() {
     overlay.setPosition(undefined);
     closer.blur();
