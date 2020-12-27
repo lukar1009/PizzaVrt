@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     /* background-color: #5d0e1e; */
     /* background-image: url("./img/background_home2.jpg"); */
@@ -23,15 +27,15 @@ body {
 
 .nav-link:hover {
     color: white !important;
-    background-color: #5d0e1e;
+    background-color: #3e0202;
     border-radius: 5px;
 }
 
 div.logo-centered {
     margin: auto;
-    width: 45%;
+    width: 50%;
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 60%;
     transform: translate(-50%, -50%);
 }

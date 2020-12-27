@@ -1,5 +1,5 @@
 body {
-    background-color: #5d0e1e !important;
+    background-color: #3e0202 !important;
     background-image: none !important;
     color: #e2b777;
 }
@@ -11,11 +11,11 @@ body {
 
 .ol-popup {
     position: absolute;
-    background-color: #5d0e1e;
+    background-color: #3e0202;
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid #5d0e1e;
+    border: 1px solid #3e0202;
     bottom: 12px;
     left: -50px;
     min-width: 100px;
@@ -32,14 +32,14 @@ body {
 }
 .ol-popup:after {
     color: #e2b777;
-    border-top-color: #5d0e1e;
+    border-top-color: #3e0202;
     border-width: 10px;
     left: 48px;
     margin-left: -10px;
 }
 .ol-popup:before {
     color: #e2b777;
-    border-top-color: #5d0e1e;
+    border-top-color: #3e0202;
     border-width: 11px;
     left: 48px;
     margin-left: -11px;

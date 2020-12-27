@@ -1,5 +1,5 @@
 body {
-    background-color: #5d0e1e !important;
+    background-color: #3e0202 !important;
     background-image: none !important;
     color: #e2b777;
 }
@@ -45,13 +45,13 @@ a:active {
     border-style: double;
     border-width: 5px;  
     /* background-color: #e2b777; */
-    color: #5d0e1e;  
+    color: #3e0202;  
     font-weight: 600;
     font-size: small;
 }
 
 .card-img-top {
-    background-color: #5d0e1e;
+    background-color: #3e0202;
 }
 
 .bottom-bordered-div {
@@ -62,4 +62,15 @@ a:active {
 
 .card > img {
     height: 12rem;
+}
+
+#pancake-extras {
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#pancake-extras-title {
+    color: #e2b777;
+    font-style: normal;
 }
