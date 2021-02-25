@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    /* background-color: #5d0e1e; */
+    background-color: #3e0202;
     /* background-image: url("./img/background_home2.jpg"); */
     background-position: center center;
     background-repeat: no-repeat;
@@ -12,6 +12,60 @@ body {
     /* min-height: 100vh; */
     font-family: 'Old Standard TT', serif;
 }
+
+/* #logo-behind {
+    background-image: url("./img/latest/logo-main.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+} */
+
+#logo-behind {
+    position: relative;
+    background: #3e0202;
+    overflow: hidden;
+}
+
+#logo-behind h3, #logo-behind h1, #logo-behind h2, #logo-behind h5 {
+    position: relative;
+    z-index: 2;
+}
+
+#logo-behind:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    background-image: url('./img/latest/logo-main.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: contain;
+}
+
+@media screen and (max-width: 540px) {
+    #logo-behind:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.2;
+        background-image: url('./img/latest/logo-main.png');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+}
+
 
 .navbar {
     background-color: #e2b777 !important;
@@ -31,7 +85,7 @@ body {
     border-radius: 5px;
 }
 
-div.logo-centered {
+/* div.logo-centered {
     margin: auto;
     width: 50%;
     position: absolute;
@@ -41,10 +95,26 @@ div.logo-centered {
 }
 
 .logo-centered img{
-    /* border-radius: 45%; */
     border-radius: 10px;
-}
+} */
 
 .main-container {
     margin-top: 120px;
+}
+
+.gold-text {
+    color: #e2b777;
+    font-weight: bold;
+}
+
+h5 {
+    font-style: italic;
+}
+
+.carousel-img {
+    border-style: double;
+    border-color: #e2b777;
+    border-width: 5px;
+    border-radius: 5px;
+    height: 350px;
 }

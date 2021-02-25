@@ -74,3 +74,9 @@ a:active {
     color: #e2b777;
     font-style: normal;
 }
+
+#pica_stavke {
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+}
